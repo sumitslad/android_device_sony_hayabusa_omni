@@ -1,0 +1,3 @@
+add_lunch_combo full_hayabusa-eng
+add_lunch_combo omni_hayabusa-eng
+add_lunch_combo omni_hayabusa-userdebug
