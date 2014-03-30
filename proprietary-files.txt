@@ -94,7 +94,10 @@ etc/firmware/q6.b04
 etc/firmware/q6.b05
 etc/firmware/q6.b06
 etc/firmware/q6.mdt
-etc/firmware/touch_module_id_0x32.img
+etc/firmware/touch_module_id_0x14.img
+etc/firmware/touch_module_id_0x19.img
+etc/firmware/touch_module_id_0x1a.img
+etc/firmware/touch_module_id_0xff.img
 etc/firmware/tzlibasb.b00
 etc/firmware/tzlibasb.b01
 etc/firmware/tzlibasb.b02
@@ -163,6 +166,8 @@ lib/libkeyctrl.so
 lib/liblights-core.so
 lib/libloc_adapter.so
 lib/libloc_api_v02.so
+lib/libloc_ds_api.so
+lib/libloc_core.so
 lib/libloc_eng.so
 lib/libmiscta.so
 lib/libmllite.so
@@ -200,6 +205,7 @@ lib/libsensors_akm8972.so
 lib/libsys-utils.so
 lib/libsysmon_idd.so
 lib/libta.so
+lib/libtime_genoff.so
 lib/libv8.so
 lib/libxml.so
 vendor/camera/APT01BM0.dat
@@ -212,3 +218,6 @@ vendor/camera/SOI13BS0_IMX091.dat
 vendor/camera/STW01BM0.dat
 vendor/camera/flash.dat
 vendor/camera/product.dat
+vendor/lib/libgeofence.so
+vendor/lib/libizat_core.so
+vendor/lib/liblbs_core.so
