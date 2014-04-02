@@ -25,7 +25,7 @@ TARGET_LS_USE_ALS_NODE := true
 BOARD_HAS_NO_SELECT_BUTTON := true
 TARGET_USERIMAGES_USE_EXT4 := true
 
-TARGET_OTA_ASSERT_DEVICE := lt29i,hayabusa,LT29i,mint,lt30p,LT30p
+TARGET_OTA_ASSERT_DEVICE := lt29i,hayabusa,LT29i
 
 BOARD_HARDWARE_CLASS := device/sony/hayabusa/cmhw
 
