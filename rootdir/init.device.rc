@@ -9,6 +9,16 @@ on boot
     chown system system /sys/class/leds/logo-backlight_2/brightness
     chmod 660 /sys/class/leds/logo-backlight_2/brightness
 
+	# led fix
+    chown system system /sys/class/leds/pwr-red/use_pattern
+    chmod 660 /sys/class/leds/pwr-red/use_pattern
+    chown system system /sys/class/leds/pwr-green/use_pattern
+    chmod 660 /sys/class/leds/pwr-green/use_pattern
+    chown system system /sys/class/leds/pwr-blue/use_pattern
+    chmod 660 /sys/class/leds/pwr-blue/use_pattern
+    chown system system /sys/bus/i2c/devices/10-0040/pattern_data
+    chmod 660 /sys/bus/i2c/devices/10-0040/pattern_data
+
 on post-fs
     # Touch firmware update
     # write /data/etc/touch_default_module_id 32
