@@ -18,7 +18,6 @@ bin/hci_qcomm_init
 #
 # Camera
 #
-lib/hw/camera.msm8960.so:lib/hw/vendor-camera.msm8960.so
 lib/hw/camera.qcom.so:lib/hw/vendor-camera.qcom.so
 lib/libcamera_clientsemc.so
 lib/libcameralight.so
